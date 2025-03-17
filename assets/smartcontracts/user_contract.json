@@ -1,0 +1,190 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_peerId",
+				"type": "string"
+			}
+		],
+		"name": "checkUserExists",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getRelayAddr",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "relayNodeAddr",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "relayIpAddr",
+						"type": "string"
+					}
+				],
+				"internalType": "struct MessengerContract.relay",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_peerId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_pubKey",
+				"type": "string"
+			}
+		],
+		"name": "getUserLogin",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_peerId",
+				"type": "string"
+			}
+		],
+		"name": "getUserProfileHash",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_peerId",
+				"type": "string"
+			}
+		],
+		"name": "getUserPubKey",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_peerId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_nodeAddr",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_pubKey",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_profileHash",
+				"type": "string"
+			}
+		],
+		"name": "registerUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "relyCurrentIndex",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_relayNodeAddr",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_relayIpAddr",
+				"type": "string"
+			}
+		],
+		"name": "setRelayAddr",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_peerId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_profileHash",
+				"type": "string"
+			}
+		],
+		"name": "updateProfileHash",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
