@@ -28,8 +28,12 @@
 
 ## 주요 개발 화면 및 영상 링크
 
+- P2P 채팅 화면
+  
 <img width="1436" alt="image" src="https://github.com/user-attachments/assets/e7a350cc-850b-4b03-8130-48682b6b16c3" />
 
+- 유튜브 영상 링크
+  
 [![B_Messenger](http://img.youtube.com/vi/Z4TB0BwEfio/0.jpg)](https://youtu.be/Z4TB0BwEfio?t=0s) 
 
 ---
